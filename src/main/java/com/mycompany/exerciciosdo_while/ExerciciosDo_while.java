@@ -12,7 +12,9 @@ public class ExerciciosDo_while {
 
     public static void main(String[] args) {
        Scanner teclado = new Scanner(System.in);
-      
+       
+        System.out.println("Atividade 1\n\n");
+        System.out.println("Escreva um número limite que vai aparecer quais são ímpares e quais são pares:");
        int pares = 0;
    
         int num1 = teclado.nextInt();
@@ -26,7 +28,7 @@ public class ExerciciosDo_while {
                 
            }
            else{
-               System.out.println(nm1 +" não é par");
+               System.out.println(nm1 +" é impar");
            }
            
            nm1 ++;
